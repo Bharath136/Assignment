@@ -1,0 +1,98 @@
+.password-item {
+  border: 1px solid #7683cb;
+  display: flex;
+  width: 32%;
+  border-radius: 4px;
+  padding: 2px 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 14px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+  .password-item {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+.user-details {
+  display: flex;
+  align-items: center;
+}
+
+.details-container {
+  padding: 10px;
+
+  line-height: 30px;
+  margin-left: 10px;
+  color: #f8fafc;
+}
+
+.website {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.profile-pic {
+  background-color: #7683cb;
+  width: 54px;
+  height: 54px;
+  border-radius: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0ea5e9;
+}
+
+.delete-button {
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+}
+
+.delete-icon {
+  height: 30px;
+  display: flex;
+  justify-self: end;
+}
+
+.password-stars {
+  height: 26px;
+  width: 140px;
+}
+
+/* profile background colors */
+
+.warning {
+  background-color: #f59e0b;
+}
+
+.green {
+  background-color: #10b981;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.lightgreen {
+  background-color: #14b8a6;
+}
+
+.darkred {
+  background-color: #b91c1c;
+}
+
+.white {
+  background-color: #ffffff;
+}
+
+.blue {
+  background-color: #0ea5e9;
+}
+
+.grey {
+  background-color: #64748b;
+}
